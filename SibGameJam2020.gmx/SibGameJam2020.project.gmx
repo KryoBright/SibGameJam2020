@@ -8,6 +8,17 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\Entity</object>
+    <object>objects\Item</object>
+    <object>objects\UI</object>
+    <object>objects\Map</object>
+    <object>objects\MapPoint</object>
+    <object>objects\Player</object>
+    <object>objects\Enemy</object>
+    <object>objects\EnemyBasic</object>
+    <object>objects\BossEnemy</object>
+  </objects>
   <help>
     <rtf>help.rtf</rtf>
   </help>
