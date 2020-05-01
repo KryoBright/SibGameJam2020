@@ -5,7 +5,11 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\BaseEntity</sprite>
+    <sprite>sprites\BasePlayer</sprite>
+    <sprite>sprites\BaseEnemy</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
@@ -19,6 +23,9 @@
     <object>objects\EnemyBasic</object>
     <object>objects\BossEnemy</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
