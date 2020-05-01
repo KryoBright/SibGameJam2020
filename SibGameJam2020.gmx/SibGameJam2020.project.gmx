@@ -10,6 +10,9 @@
     <sprite>sprites\BasePlayer</sprite>
     <sprite>sprites\BaseEnemy</sprite>
     <sprite>sprites\BaseBoss</sprite>
+    <sprite>sprites\BaseBullet</sprite>
+    <sprite>sprites\BaseFBullet</sprite>
+    <sprite>sprites\BaseE_Bullet</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,6 +26,11 @@
     <object>objects\Enemy</object>
     <object>objects\EnemyBasic</object>
     <object>objects\BossEnemy</object>
+    <objects name="Bullets">
+      <object>objects\Bullet</object>
+      <object>objects\F_Bullet</object>
+      <object>objects\E_Bullet</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
