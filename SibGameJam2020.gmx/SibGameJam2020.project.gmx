@@ -10,6 +10,7 @@
     <sprite>sprites\BasePlayer</sprite>
     <sprite>sprites\BaseEnemy</sprite>
     <sprite>sprites\BaseBoss</sprite>
+    <sprite>sprites\UISprite</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

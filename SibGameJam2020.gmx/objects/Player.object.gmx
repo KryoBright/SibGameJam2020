@@ -25,26 +25,37 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ((mouse_x-x)&gt;3)
+            <string>if (!colliding)
 {
-    speed_x=(mouse_x-x)/2+1
+    if (!position_meeting(mouse_x,mouse_y,UI))
+    {
+        if ((mouse_x-x)&gt;3)
+        {
+            speed_x=(mouse_x-x)/2+1
+        }
+        else if ((mouse_x-x)&lt;-3)
+        {
+            speed_x=(mouse_x-x)/2-1
+        }
+        else speed_x=0
+        
+        
+        if ((mouse_y-y)&gt;3)
+        {
+            speed_y=(mouse_y-y)/2+1
+        }
+        else if ((mouse_y-y)&lt;-3)
+        {
+            speed_y=(mouse_y-y)/2-1
+        }
+        else speed_y=0
+    }
+    else
+    {
+        speed_x=0
+        speed_y=0
+    }
 }
-else if ((mouse_x-x)&lt;-3)
-{
-    speed_x=(mouse_x-x)/2-1
-}
-else speed_x=0
-
-
-if ((mouse_y-y)&gt;3)
-{
-    speed_y=(mouse_y-y)/2+1
-}
-else if ((mouse_y-y)&lt;-3)
-{
-    speed_y=(mouse_y-y)/2-1
-}
-else speed_y=0
 event_inherited()
 </string>
           </argument>
