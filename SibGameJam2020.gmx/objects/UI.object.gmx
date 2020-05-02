@@ -25,8 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self()
+            <string>
 draw_healthbar(1370,170,1900,250,Player.health_c*100/Player.health_b,c_black,c_red,c_lime,0,true,true)
+draw_healthbar(1620,290,1900,360,Map.weapons[0].delay_c*100/Map.weapons[0].delay_b,c_black,c_orange,c_orange,0,true,true)
+draw_healthbar(1620,610,1900,680,Map.weapons[1].delay_c*100/Map.weapons[1].delay_b,c_black,c_orange,c_orange,0,true,true)
+draw_self()
+draw_text_transformed_colour(1380+120,900+20,string(Map.money)+" G",5,5,0,c_black,c_black,c_black,c_black,1)
+
 </string>
           </argument>
         </arguments>

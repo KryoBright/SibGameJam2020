@@ -32,6 +32,12 @@ speed_x=random(6)-3
 owner=noone
 depth=-2
 persistent=true
+cost=50
+if (room==roomShop)
+{
+    shield=instance_create(x,y,ShopShield)
+    shield.item=self
+}
 </string>
           </argument>
         </arguments>
@@ -60,7 +66,7 @@ if ((hits&lt;=0)and(owner==noone))
 {
     owner=instance_find(Player,0)
     k=0
-    while ((Map.inventory[k]!=noone)and(k&lt;8))
+    while ((k&lt;8)and(Map.inventory[k]!=noone))
     {
         k++
     }

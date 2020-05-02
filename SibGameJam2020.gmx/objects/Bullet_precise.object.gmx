@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed_a=25
+            <string>event_inherited()
+speed_a=25
 if (instance_exists(Player)==true)
 {
 x1=abs(x-Player.x)

@@ -29,6 +29,7 @@
 delay=0
 target_move_x=0
 target_move_y=0
+value=10
 event_user(15)
 </string>
           </argument>
@@ -140,6 +141,30 @@ if (delay&lt;=0)
 {
     delay=30
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="16">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>event_inherited()
+Map.money+=value
 </string>
           </argument>
         </arguments>

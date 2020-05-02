@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed_a=10
+            <string>event_inherited()
+speed_a=10
 speed_x=0
 speed_y=10
 delay=90

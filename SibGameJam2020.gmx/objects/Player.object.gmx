@@ -85,7 +85,7 @@ event_inherited()
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="54">
+    <event eventtype="6" enumb="51">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -108,7 +108,7 @@ event_inherited()
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="53">
+    <event eventtype="6" enumb="50">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -155,6 +155,32 @@ game_restart()
         </arguments>
       </action>
     </event>
+    <event eventtype="7" enumb="12">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with(Map.weapons[1])
+{
+    event_user(1)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="7" enumb="11">
       <action>
         <libid>1</libid>
@@ -172,19 +198,9 @@ game_restart()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bullet=instance_create(x,y,F_Bullet)
-s=0
-while (s&lt;8)
+            <string>with(Map.weapons[0])
 {
-    if (Map.inventory[s]!=noone)
-    {
-        Map.inventory[s].target=bullet
-        with(Map.inventory[s])
-        {
-            event_user(3)
-        }
-    }
-    s++
+    event_user(1)
 }
 </string>
           </argument>

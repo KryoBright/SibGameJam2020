@@ -52,7 +52,11 @@ speed_x=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>other.health_c-=1;
+            <string>if (other.inv_frame&lt;=0)
+{
+    other.health_c-=damage;
+    other.inv_frame+=6
+}
 instance_destroy()
 </string>
           </argument>

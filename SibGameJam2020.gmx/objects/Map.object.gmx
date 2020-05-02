@@ -152,6 +152,20 @@ while (s&lt;8)
 }
 
 p_bh=100
+money=100
+weapons[0]=noone
+weapons[1]=noone
+p_tmp=instance_create(600,400,GunPistol)
+p_tmp.hits=0
+p_tmp.owner=self
+with(p_tmp)
+{
+    event_perform(ev_step,0)
+}
+p_tmp=instance_create(600,600,GunPistol)
+p_tmp.hits=0
+p_tmp.owner=self
+
 </string>
           </argument>
         </arguments>

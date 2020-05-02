@@ -28,6 +28,7 @@
             <string>event_inherited()
 health_b=1000
 health_c=1000
+value=400
 </string>
           </argument>
         </arguments>

@@ -30,6 +30,7 @@ speed_y=0
 health_c=100
 health_b=100
 colliding=false
+inv_frame=0
 </string>
           </argument>
         </arguments>
@@ -55,6 +56,8 @@ colliding=false
             <string>x+=speed_x
 y+=speed_y
 colliding=false
+if (inv_frame&gt;0)
+    inv_frame--
 if (health_c&lt;=0)
 {
     event_user(6)

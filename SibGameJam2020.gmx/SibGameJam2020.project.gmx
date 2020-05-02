@@ -6,25 +6,36 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\BaseEntity</sprite>
-    <sprite>sprites\BasePlayer</sprite>
-    <sprite>sprites\BaseEnemy</sprite>
-    <sprite>sprites\BaseEnemyHoaming</sprite>
-    <sprite>sprites\BaseEnemyPrrecise</sprite>
-    <sprite>sprites\BaseEnemyBasic</sprite>
-    <sprite>sprites\BaseBoss</sprite>
-    <sprite>sprites\BaseBullet</sprite>
-    <sprite>sprites\BaseFBullet</sprite>
-    <sprite>sprites\BaseE_Bullet</sprite>
-    <sprite>sprites\BaseSin_Bullet</sprite>
-    <sprite>sprites\Hoaming_Bullet</sprite>
-    <sprite>sprites\BulletPrecise</sprite>
     <sprite>sprites\UISprite</sprite>
     <sprite>sprites\MapSprite</sprite>
     <sprite>sprites\MapIcon</sprite>
     <sprite>sprites\MapSelect</sprite>
-    <sprite>sprites\ItemApple</sprite>
-    <sprite>sprites\ItemFieryBlade</sprite>
+    <sprites name="Entities">
+      <sprite>sprites\BaseBoss</sprite>
+      <sprite>sprites\BaseEnemyBasic</sprite>
+      <sprite>sprites\BaseEnemyPrrecise</sprite>
+      <sprite>sprites\BaseEnemyHoaming</sprite>
+      <sprite>sprites\BaseEnemy</sprite>
+      <sprite>sprites\BasePlayer</sprite>
+      <sprite>sprites\BaseEntity</sprite>
+    </sprites>
+    <sprites name="Items">
+      <sprite>sprites\ItemApple</sprite>
+      <sprite>sprites\PanelShop</sprite>
+      <sprite>sprites\ItemFieryBlade</sprite>
+    </sprites>
+    <sprites name="Bullets">
+      <sprite>sprites\BaseBullet</sprite>
+      <sprite>sprites\BulletPrecise</sprite>
+      <sprite>sprites\Hoaming_Bullet</sprite>
+      <sprite>sprites\BaseSin_Bullet</sprite>
+      <sprite>sprites\BaseE_Bullet</sprite>
+      <sprite>sprites\BaseFBullet</sprite>
+    </sprites>
+    <sprite>sprites\PistolSprite</sprite>
+    <sprite>sprites\MachineGun</sprite>
+    <sprite>sprites\DKSword</sprite>
+    <sprite>sprites\DKAttack</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -46,6 +57,7 @@
       <object>objects\E_Bullet</object>
       <object>objects\Sin_bullet</object>
       <object>objects\Bullet_precise</object>
+      <object>objects\MGRound</object>
     </objects>
     <objects name="Map">
       <object>objects\MapPointFight</object>
@@ -57,11 +69,17 @@
       <object>objects\MapPointStart</object>
     </objects>
     <objects name="Items">
+      <object>objects\GunSword</object>
       <object>objects\Item</object>
       <object>objects\ItemAppleObj</object>
       <object>objects\RandomItem</object>
       <object>objects\ItemFieryBladeObj</object>
+      <object>objects\GunBase</object>
+      <object>objects\GunPistol</object>
+      <object>objects\GunMG</object>
     </objects>
+    <object>objects\ShopShield</object>
+    <object>objects\ShieldDK</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMap</room>
