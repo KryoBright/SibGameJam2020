@@ -7,24 +7,30 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\BaseEntity</sprite>
-    <sprite>sprites\BasePlayer</sprite>
-    <sprite>sprites\BaseEnemy</sprite>
-    <sprite>sprites\BaseEnemyHoaming</sprite>
-    <sprite>sprites\BaseEnemyPrrecise</sprite>
-    <sprite>sprites\BaseEnemyBasic</sprite>
-    <sprite>sprites\BaseBoss</sprite>
     <sprite>sprites\BaseBullet</sprite>
-    <sprite>sprites\BaseFBullet</sprite>
-    <sprite>sprites\BaseE_Bullet</sprite>
-    <sprite>sprites\BaseSin_Bullet</sprite>
-    <sprite>sprites\Hoaming_Bullet</sprite>
-    <sprite>sprites\BulletPrecise</sprite>
+    <sprite>sprites\BasePlayer</sprite>
+    <sprites name="Item">
+      <sprite>sprites\ItemFieryBlade</sprite>
+      <sprite>sprites\ItemApple</sprite>
+    </sprites>
+    <sprites name="Enemy">
+      <sprite>sprites\BaseBoss</sprite>
+      <sprite>sprites\BaseEnemyHoaming</sprite>
+      <sprite>sprites\BaseEnemy</sprite>
+      <sprite>sprites\BaseEnemyPrrecise</sprite>
+      <sprite>sprites\BaseEnemyBasic</sprite>
+    </sprites>
+    <sprites name="Bullet">
+      <sprite>sprites\BaseSin_Bullet</sprite>
+      <sprite>sprites\BaseFBullet</sprite>
+      <sprite>sprites\BaseE_Bullet</sprite>
+      <sprite>sprites\BulletPrecise</sprite>
+      <sprite>sprites\Hoaming_Bullet</sprite>
+    </sprites>
     <sprite>sprites\UISprite</sprite>
     <sprite>sprites\MapSprite</sprite>
     <sprite>sprites\MapIcon</sprite>
     <sprite>sprites\MapSelect</sprite>
-    <sprite>sprites\ItemApple</sprite>
-    <sprite>sprites\ItemFieryBlade</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

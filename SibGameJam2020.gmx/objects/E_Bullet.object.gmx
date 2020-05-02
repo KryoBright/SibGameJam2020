@@ -52,7 +52,7 @@ speed_x=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>other.health_c-=1;
+            <string>other.health_c-=40;
 instance_destroy()
 </string>
           </argument>
