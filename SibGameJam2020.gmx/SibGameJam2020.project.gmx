@@ -9,10 +9,16 @@
     <sprite>sprites\BaseEntity</sprite>
     <sprite>sprites\BasePlayer</sprite>
     <sprite>sprites\BaseEnemy</sprite>
+    <sprite>sprites\BaseEnemyHoaming</sprite>
+    <sprite>sprites\BaseEnemyPrrecise</sprite>
+    <sprite>sprites\BaseEnemyBasic</sprite>
     <sprite>sprites\BaseBoss</sprite>
     <sprite>sprites\BaseBullet</sprite>
     <sprite>sprites\BaseFBullet</sprite>
     <sprite>sprites\BaseE_Bullet</sprite>
+    <sprite>sprites\BaseSin_Bullet</sprite>
+    <sprite>sprites\Hoaming_Bullet</sprite>
+    <sprite>sprites\BulletPrecise</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,13 +29,20 @@
     <object>objects\Map</object>
     <object>objects\MapPoint</object>
     <object>objects\Player</object>
-    <object>objects\Enemy</object>
-    <object>objects\EnemyBasic</object>
-    <object>objects\BossEnemy</object>
+    <objects name="Enemy">
+      <object>objects\EnemyBasic</object>
+      <object>objects\BossEnemy</object>
+      <object>objects\Enemy</object>
+      <object>objects\EnemyHoaming</object>
+      <object>objects\EnemyPrecise</object>
+    </objects>
     <objects name="Bullets">
       <object>objects\Bullet</object>
       <object>objects\F_Bullet</object>
+      <object>objects\HoamingBullet</object>
       <object>objects\E_Bullet</object>
+      <object>objects\Sin_bullet</object>
+      <object>objects\Bullet_precise</object>
     </objects>
   </objects>
   <rooms name="rooms">
