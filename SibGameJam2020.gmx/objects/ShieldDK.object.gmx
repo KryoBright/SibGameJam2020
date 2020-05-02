@@ -104,8 +104,11 @@ if (lifetime&lt;=0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>other.health_c-=damage
-instance_destroy()
+            <string>if (lifetime&lt;=3)
+{
+    other.health_c-=damage
+    instance_destroy()
+}
 </string>
           </argument>
         </arguments>

@@ -23,6 +23,7 @@
       <sprite>sprites\ItemApple</sprite>
       <sprite>sprites\PanelShop</sprite>
       <sprite>sprites\ItemFieryBlade</sprite>
+      <sprite>sprites\AccelPotionSprite</sprite>
     </sprites>
     <sprites name="Bullets">
       <sprite>sprites\BaseBullet</sprite>
@@ -69,6 +70,7 @@
       <object>objects\MapPointStart</object>
     </objects>
     <objects name="Items">
+      <object>objects\AccelPotion</object>
       <object>objects\GunSword</object>
       <object>objects\Item</object>
       <object>objects\ItemAppleObj</object>
