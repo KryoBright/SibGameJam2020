@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed_y=-10;
+            <string>event_inherited()
+speed_y=-10;
 speed_x=0;
 </string>
           </argument>
@@ -49,7 +50,7 @@ speed_x=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>other.health_c-=1000;
+            <string>other.health_c-=damage;
 instance_destroy()
 </string>
           </argument>

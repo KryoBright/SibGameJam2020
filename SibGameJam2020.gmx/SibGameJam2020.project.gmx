@@ -14,15 +14,17 @@
     <sprite>sprites\BaseFBullet</sprite>
     <sprite>sprites\BaseE_Bullet</sprite>
     <sprite>sprites\UISprite</sprite>
+    <sprite>sprites\MapSprite</sprite>
+    <sprite>sprites\MapIcon</sprite>
+    <sprite>sprites\MapSelect</sprite>
+    <sprite>sprites\ItemApple</sprite>
+    <sprite>sprites\ItemFieryBlade</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Entity</object>
-    <object>objects\Item</object>
     <object>objects\UI</object>
-    <object>objects\Map</object>
-    <object>objects\MapPoint</object>
     <object>objects\Player</object>
     <object>objects\Enemy</object>
     <object>objects\EnemyBasic</object>
@@ -32,8 +34,28 @@
       <object>objects\F_Bullet</object>
       <object>objects\E_Bullet</object>
     </objects>
+    <objects name="Map">
+      <object>objects\MapPointFight</object>
+      <object>objects\MapPointBoss</object>
+      <object>objects\MapPointShop</object>
+      <object>objects\MapPointLoot</object>
+      <object>objects\Map</object>
+      <object>objects\MapPoint</object>
+      <object>objects\MapPointStart</object>
+    </objects>
+    <objects name="Items">
+      <object>objects\Item</object>
+      <object>objects\ItemAppleObj</object>
+      <object>objects\RandomItem</object>
+      <object>objects\ItemFieryBladeObj</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\roomMap</room>
+    <room>rooms\roomFight</room>
+    <room>rooms\roomShop</room>
+    <room>rooms\roomLoot</room>
+    <room>rooms\roomBoss</room>
     <room>rooms\room0</room>
   </rooms>
   <help>

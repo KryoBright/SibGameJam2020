@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>speed_x=0
 speed_y=0
+damage=80
 
 </string>
           </argument>
