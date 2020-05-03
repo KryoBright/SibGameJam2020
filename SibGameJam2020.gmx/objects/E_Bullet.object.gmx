@@ -56,6 +56,7 @@ speed_x=0
 {
     other.health_c-=damage;
     other.inv_frame+=6
+    instance_create(0,0,objectTiltRed)
 }
 instance_destroy()
 </string>

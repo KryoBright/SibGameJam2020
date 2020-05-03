@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>await=2
+instance_create(0,0,objectBackRandom)
 </string>
           </argument>
         </arguments>
@@ -72,7 +73,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (await&lt;=0)
+            <string>
+    
+if (await&lt;=0)
 {
     draw_healthbar(1370,170,1900,250,Player.health_c*100/Player.health_b,c_black,c_red,c_lime,0,true,true)
     draw_healthbar(1620,290,1900,360,Map.weapons[0].delay_c*100/Map.weapons[0].delay_b,c_black,c_orange,c_orange,0,true,true)

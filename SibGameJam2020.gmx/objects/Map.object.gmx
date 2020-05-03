@@ -3,7 +3,7 @@
   <spriteName>MapSprite</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>1</depth>
+  <depth>2</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -284,6 +284,7 @@ else
     o.health_b=p_bh
     
 }
+
 </string>
           </argument>
         </arguments>
@@ -306,7 +307,19 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self()
+            <string>if (room==roomMap)
+{
+    draw_sprite(Back,0,0,0)
+}
+else if (room==roomShop)
+{
+    draw_sprite(Back,1,0,0)
+}
+else 
+{
+    draw_sprite(Back,floor(random(4))+2,0,0)
+}
+draw_self()
 j=1
 draw_set_colour(c_white)
 while (j&lt;9)

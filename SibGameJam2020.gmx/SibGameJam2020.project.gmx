@@ -55,6 +55,8 @@
     <sprite>sprites\SwitchSprite</sprite>
     <sprite>sprites\spriteDanger</sprite>
     <sprite>sprites\spriteRestart</sprite>
+    <sprite>sprites\Back</sprite>
+    <sprite>sprites\spriteTiltRed</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -119,6 +121,8 @@
     <object>objects\BiigBullet</object>
     <object>objects\objectBarrier</object>
     <object>objects\ButtonRestart</object>
+    <object>objects\objectBackRandom</object>
+    <object>objects\objectTiltRed</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMap</room>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>phase=0
 health_b=2000
 health_c=2000
 value=400
@@ -112,6 +112,11 @@ y+=speed_y
 colliding=false
 if (inv_frame&gt;0)
     inv_frame--
+if (health_c&lt;((12-phase)*health_b/12))
+{
+    health_c=((12-phase)*health_b/12)-1
+    phase++
+}
 if (health_c&lt;=0)
 {
     event_user(6)
