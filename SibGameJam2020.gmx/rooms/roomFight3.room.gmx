@@ -53,11 +53,18 @@
   <instances>
     <instance objName="Player" x="940" y="870" name="inst_14984AF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="UI" x="0" y="0" name="inst_9C3A4788" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy" x="760" y="360" name="inst_B41B57A1" locked="0" code="" scaleX="1" scaleY="1.06329119205475" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy" x="1060" y="360" name="inst_1B82FD7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="EnemyPrecise" x="640" y="170" name="inst_3FDA77B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="EnemyPrecise" x="910" y="170" name="inst_EBC48732" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="EnemyPrecise" x="1180" y="170" name="inst_C007B24A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="590" y="310" name="inst_A6B1548F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="650" y="150" name="inst_14A7D20E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="710" y="310" name="inst_61B7E05B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="770" y="150" name="inst_9C6345B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="880" y="150" name="inst_B5093A9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="830" y="310" name="inst_356645FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="940" y="310" name="inst_96F018FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="1000" y="150" name="inst_F6F25332" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="1060" y="310" name="inst_9B79723F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="1120" y="150" name="inst_307C0769" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="1190" y="310" name="inst_7013E64A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="1250" y="150" name="inst_9580523E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -28,6 +28,14 @@
             <string>
 event_inherited()
 image_index=1
+roomsF[0]=roomFight
+roomsF[1]=roomFight1
+roomsF[2]=roomFight2
+roomsF[3]=roomFight3
+roomsF[4]=roomFight4
+roomsF[5]=roomFight5
+roomsF[6]=roomFight6
+roomsF[7]=roomFight7
 </string>
           </argument>
         </arguments>
@@ -36,21 +44,23 @@ image_index=1
     <event eventtype="7" enumb="11">
       <action>
         <libid>1</libid>
-        <id>224</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_another_room</functionname>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>11</kind>
-            <room>roomFight</room>
+            <kind>1</kind>
+            <string>
+room_goto(roomsF[floor(random(8))])
+</string>
           </argument>
         </arguments>
       </action>

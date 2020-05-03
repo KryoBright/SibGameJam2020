@@ -25,10 +25,218 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited()
-health_b=1000
-health_c=1000
+            <string>
+health_b=2000
+health_c=2000
 value=400
+x_s=x
+y_s=y
+d_move=0
+event_inherited()
+
+health_b=2000
+health_c=2000
+value=400
+x_s=x
+y_s=y
+d_move=0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>tmp_x=target_move_x
+tmp_y=target_move_y
+speed_x=0
+speed_y=0
+if ((!colliding)and(health_c&lt;health_b*2/3))
+{
+    if ((tmp_x-x)&gt;1)
+    {
+        speed_x=(tmp_x-x)/2+1
+    }
+    else if ((tmp_x-x)&lt;-1)
+    {
+        speed_x=(tmp_x-x)/2-1
+    }
+    else speed_x=0
+    
+    
+    if ((tmp_y-y)&gt;1)
+    {
+        speed_y=(tmp_y-y)/2+1
+    }
+    else if ((tmp_y-y)&lt;-1)
+    {
+        speed_y=(tmp_y-y)/2-1
+    }
+    else speed_y=0
+}
+event_user(15)
+event_user(14)
+if ((delay mod 3)==0)
+{
+    if (random(1)&lt;0.75)
+        event_user(1)
+}
+
+if ((delay mod 10==0)and(health_c&lt;health_b*2/5))
+{
+    event_user(2)
+}
+
+d_move+=0.05
+if (d_move&gt;6.28)
+{
+    d_move-=6.28
+}
+x+=speed_x
+y+=speed_y
+colliding=false
+if (inv_frame&gt;0)
+    inv_frame--
+if (health_c&lt;=0)
+{
+    event_user(6)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="25">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (health_c&gt;health_b*2/3)
+{
+    target_move_x=x
+    target_move_y=y
+}
+else
+{
+    target_move_x=x_s+50*sin(d_move)
+    target_move_y=y_s+50*cos(d_move)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="24">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>delay--
+if (delay&lt;=0)
+{
+    delay=60
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="12">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>bullet=instance_create(x,y,BTPrec)
+bullet.speed_x=5*sin(-delay*3.141592/30)
+bullet.speed_y=5*cos(-delay*3.141592/30)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="11">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>bullet=instance_create(x,y,E_Bullet)
+bullet.speed_x=5*sin(delay*3.141592/120)
+bullet.speed_y=5*cos(delay*3.141592/120)
+delay_t=delay*3/2+90
+bullet=instance_create(x,y,E_Bullet)
+bullet.speed_x=5*sin(delay_t*3.141592/180)
+bullet.speed_y=5*cos(delay_t*3.141592/180)
+delay_t=delay_t+90
+bullet=instance_create(x,y,E_Bullet)
+bullet.speed_x=5*sin(delay_t*3.141592/180)
+bullet.speed_y=5*cos(delay_t*3.141592/180)
+delay_t=delay_t+90
+bullet=instance_create(x,y,E_Bullet)
+bullet.speed_x=5*sin(delay_t*3.141592/180)
+bullet.speed_y=5*cos(delay_t*3.141592/180)
 </string>
           </argument>
         </arguments>

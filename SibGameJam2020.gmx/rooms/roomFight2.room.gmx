@@ -53,11 +53,12 @@
   <instances>
     <instance objName="Player" x="940" y="870" name="inst_14984AF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="UI" x="0" y="0" name="inst_9C3A4788" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy" x="760" y="360" name="inst_B41B57A1" locked="0" code="" scaleX="1" scaleY="1.06329119205475" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy" x="1060" y="360" name="inst_1B82FD7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="EnemyPrecise" x="640" y="170" name="inst_3FDA77B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="EnemyPrecise" x="910" y="170" name="inst_EBC48732" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="EnemyPrecise" x="1180" y="170" name="inst_C007B24A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="EnemyHoaming" x="640" y="150" name="inst_B4A77E7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="EnemyHoaming" x="1240" y="150" name="inst_FEDCA982" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="EnemyHoaming" x="720" y="150" name="inst_1E9F3CA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="EnemyHoaming" x="1160" y="150" name="inst_D0BA8755" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="EnemyPrecise" x="720" y="250" name="inst_3D16D924" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="EnemyPrecise" x="1160" y="240" name="inst_C3AABAF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

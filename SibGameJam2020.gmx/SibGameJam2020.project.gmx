@@ -37,6 +37,7 @@
     <sprite>sprites\MachineGun</sprite>
     <sprite>sprites\DKSword</sprite>
     <sprite>sprites\DKAttack</sprite>
+    <sprite>sprites\SwitchSprite</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -49,6 +50,7 @@
       <object>objects\BossEnemy</object>
       <object>objects\Enemy</object>
       <object>objects\EnemyHoaming</object>
+      <object>objects\Switch</object>
       <object>objects\EnemyPrecise</object>
     </objects>
     <objects name="Bullets">
@@ -59,6 +61,7 @@
       <object>objects\Sin_bullet</object>
       <object>objects\Bullet_precise</object>
       <object>objects\MGRound</object>
+      <object>objects\BTPrec</object>
     </objects>
     <objects name="Map">
       <object>objects\MapPointFight</object>
@@ -85,11 +88,20 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMap</room>
-    <room>rooms\roomFight</room>
     <room>rooms\roomShop</room>
     <room>rooms\roomLoot</room>
     <room>rooms\roomBoss</room>
     <room>rooms\room0</room>
+    <rooms name="FightRooms">
+      <room>rooms\roomFight</room>
+      <room>rooms\roomFight1</room>
+      <room>rooms\roomFight2</room>
+      <room>rooms\roomFight3</room>
+      <room>rooms\roomFight4</room>
+      <room>rooms\roomFight5</room>
+      <room>rooms\roomFight6</room>
+      <room>rooms\roomFight7</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
