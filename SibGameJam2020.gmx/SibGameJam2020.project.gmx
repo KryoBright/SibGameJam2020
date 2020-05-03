@@ -51,6 +51,7 @@
     <sprite>sprites\DKAttack</sprite>
     <sprite>sprites\SwitchSprite</sprite>
     <sprite>sprites\spriteDanger</sprite>
+    <sprite>sprites\spriteRestart</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -114,6 +115,7 @@
     <object>objects\ShieldDK</object>
     <object>objects\BiigBullet</object>
     <object>objects\objectBarrier</object>
+    <object>objects\ButtonRestart</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMap</room>
