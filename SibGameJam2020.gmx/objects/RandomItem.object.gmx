@@ -25,12 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>LSize=5
+            <string>LSize=9
 itemList[0]=ItemAppleObj
 itemList[1]=ItemFieryBladeObj
 itemList[2]=GunMG
 itemList[3]=GunSword
 itemList[4]=AccelPotion
+itemList[5]=ItemPrism
+itemList[6]=ItemJet
+itemList[7]=ItemGoldBullets
+itemList[8]=GunShotgun
 instance_create(x,y,itemList[floor(random(LSize))])
 instance_destroy()
 </string>

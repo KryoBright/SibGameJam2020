@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>lifetime=5
 damage=60
+speed_x=0
+speed_y=0
 </string>
           </argument>
         </arguments>
@@ -51,8 +53,9 @@ damage=60
             <kind>1</kind>
             <string>if (instance_find(Player,0)!=noone)
 {
-    x=Player.x
-    y=Player.y-60
+    x=Player.x+speed_x*10
+    y=Player.y-60+abs(speed_x*4)
+    image_angle=(-speed_x*9)
 }
 lifetime--
 if (lifetime&lt;=0)

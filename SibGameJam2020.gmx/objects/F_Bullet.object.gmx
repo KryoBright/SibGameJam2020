@@ -51,7 +51,20 @@ speed_x=0;
           <argument>
             <kind>1</kind>
             <string>other.health_c-=damage;
+s=0
+while (s&lt;8)
+{
+    if (Map.inventory[s]!=noone)
+    {
+        with(Map.inventory[s])
+        {
+            event_user(5)
+        }
+    }
+    s++
+}
 instance_destroy()
+
 </string>
           </argument>
         </arguments>

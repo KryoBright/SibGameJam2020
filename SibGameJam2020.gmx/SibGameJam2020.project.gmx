@@ -34,6 +34,9 @@
       <sprite>sprites\PanelShop</sprite>
       <sprite>sprites\ItemFieryBlade</sprite>
       <sprite>sprites\AccelPotionSprite</sprite>
+      <sprite>sprites\spriteFirejet</sprite>
+      <sprite>sprites\spriteGoldBullet</sprite>
+      <sprite>sprites\spritePrism</sprite>
     </sprites>
     <sprites name="Bullets">
       <sprite>sprites\BaseBullet</sprite>
@@ -46,12 +49,16 @@
     </sprites>
     <sprite>sprites\PistolSprite</sprite>
     <sprite>sprites\MachineGun</sprite>
+    <sprite>sprites\spriteShotgun</sprite>
     <sprite>sprites\DKSword</sprite>
     <sprite>sprites\DKAttack</sprite>
     <sprite>sprites\SwitchSprite</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\Entity</object>
     <object>objects\UI</object>
@@ -87,14 +94,18 @@
     </objects>
     <objects name="Items">
       <object>objects\AccelPotion</object>
-      <object>objects\GunSword</object>
       <object>objects\Item</object>
       <object>objects\ItemAppleObj</object>
       <object>objects\RandomItem</object>
       <object>objects\ItemFieryBladeObj</object>
+      <object>objects\ItemJet</object>
+      <object>objects\ItemGoldBullets</object>
+      <object>objects\ItemPrism</object>
       <objects name="Gun">
+        <object>objects\GunSword</object>
         <object>objects\GunPistol</object>
         <object>objects\GunMG</object>
+        <object>objects\GunShotgun</object>
         <object>objects\GunBase</object>
       </objects>
     </objects>

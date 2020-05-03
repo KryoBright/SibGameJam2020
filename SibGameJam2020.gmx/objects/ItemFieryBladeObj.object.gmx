@@ -49,7 +49,7 @@ cost=150
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>target.damage*=2
+            <string>target.damage*=1.5
 </string>
           </argument>
         </arguments>
