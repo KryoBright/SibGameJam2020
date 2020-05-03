@@ -26,6 +26,7 @@
       </sprites>
       <sprite>sprites\BaseEnemy</sprite>
       <sprite>sprites\BasePlayer</sprite>
+      <sprite>sprites\BossSecond</sprite>
       <sprite>sprites\BaseEntity</sprite>
     </sprites>
     <sprites name="Items">
@@ -41,6 +42,7 @@
       <sprite>sprites\BaseSin_Bullet</sprite>
       <sprite>sprites\BaseE_Bullet</sprite>
       <sprite>sprites\BaseFBullet</sprite>
+      <sprite>sprites\spriteBigShot</sprite>
     </sprites>
     <sprite>sprites\PistolSprite</sprite>
     <sprite>sprites\MachineGun</sprite>
@@ -57,9 +59,11 @@
     <objects name="Enemy">
       <object>objects\EnemyBasic</object>
       <object>objects\BossEnemy</object>
+      <object>objects\Boss2Type</object>
       <object>objects\Enemy</object>
       <object>objects\EnemyHoaming</object>
       <object>objects\Switch</object>
+      <object>objects\RandomBoss</object>
       <object>objects\EnemyPrecise</object>
     </objects>
     <objects name="Bullets">
@@ -96,6 +100,7 @@
     </objects>
     <object>objects\ShopShield</object>
     <object>objects\ShieldDK</object>
+    <object>objects\BiigBullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMap</room>
