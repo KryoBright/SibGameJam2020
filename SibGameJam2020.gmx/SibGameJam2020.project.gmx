@@ -12,9 +12,18 @@
     <sprite>sprites\MapSelect</sprite>
     <sprites name="Entities">
       <sprite>sprites\BaseBoss</sprite>
-      <sprite>sprites\BaseEnemyBasic</sprite>
-      <sprite>sprites\BaseEnemyPrrecise</sprite>
-      <sprite>sprites\BaseEnemyHoaming</sprite>
+      <sprites name="Hoaming">
+        <sprite>sprites\Hoaming_healthy</sprite>
+        <sprite>sprites\hoaming_damaged</sprite>
+      </sprites>
+      <sprites name="Basic">
+        <sprite>sprites\Basic_healthy</sprite>
+        <sprite>sprites\Basic_damaged</sprite>
+      </sprites>
+      <sprites name="precise">
+        <sprite>sprites\Prrecise_healthy</sprite>
+        <sprite>sprites\precize_damaged</sprite>
+      </sprites>
       <sprite>sprites\BaseEnemy</sprite>
       <sprite>sprites\BasePlayer</sprite>
       <sprite>sprites\BaseEntity</sprite>
@@ -76,9 +85,11 @@
       <object>objects\ItemAppleObj</object>
       <object>objects\RandomItem</object>
       <object>objects\ItemFieryBladeObj</object>
-      <object>objects\GunBase</object>
-      <object>objects\GunPistol</object>
-      <object>objects\GunMG</object>
+      <objects name="Gun">
+        <object>objects\GunPistol</object>
+        <object>objects\GunMG</object>
+        <object>objects\GunBase</object>
+      </objects>
     </objects>
     <object>objects\ShopShield</object>
     <object>objects\ShieldDK</object>
