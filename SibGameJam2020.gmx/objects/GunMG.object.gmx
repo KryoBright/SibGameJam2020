@@ -29,6 +29,7 @@
 delay_c=0
 delay_b=2
 heat=0
+description="MachineGun.Shoots fast,but #overheats##Is it still fair? #Or was it ever?"
 </string>
           </argument>
         </arguments>

@@ -26,15 +26,15 @@
           <argument>
             <kind>1</kind>
             <string>
-health_b=1000
-health_c=1000
+health_b=2000
+health_c=2000
 value=400
 x_s=x
 y_s=y
 event_inherited()
 
-health_b=1000
-health_c=1000
+health_b=2000
+health_c=2000
 value=400
 x_s=x
 y_s=y

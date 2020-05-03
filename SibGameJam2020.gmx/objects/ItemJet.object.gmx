@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>event_inherited()
 cost=75
+description="Blind shot.Spread up,damage x2.5##If you only could aim for something,#you wouldn't have reason to fight"
 </string>
           </argument>
         </arguments>

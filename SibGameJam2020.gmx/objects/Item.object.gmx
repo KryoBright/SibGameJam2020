@@ -38,6 +38,7 @@ if (room==roomShop)
     shield=instance_create(x,y,ShopShield)
     shield.item=self
 }
+description="Base Item##You just forgot to overload #description,did you?"
 </string>
           </argument>
         </arguments>
@@ -85,6 +86,7 @@ if ((hits&lt;=0)and(owner==noone))
         }
         Map.inventory[k]=self
     }
+    Map.lastitem=self
     speed_x=0
     speed_y=0
     x=70+190*(k mod 2)

@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>event_inherited()
 cost=150
+description="Burning damage.Gives x1.5 damage more##'Cut trough the lies!' 'Kill the #truth!' and more recipes to#grow stronger"
 </string>
           </argument>
         </arguments>

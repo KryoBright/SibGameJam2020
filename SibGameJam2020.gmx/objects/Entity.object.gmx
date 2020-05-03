@@ -154,9 +154,7 @@ instance_destroy()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(x,y+50,"I SPECIAL shoot!Pew,pew!")
-effect_create_above(ef_firework,x,y,20,random(255))
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>

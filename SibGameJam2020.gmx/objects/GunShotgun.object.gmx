@@ -28,6 +28,7 @@
             <string>event_inherited()
 delay_c=0
 delay_b=60
+description="Shotgun.Shots wall of bullets##One shoot - and someone dead.#Wouldn't gods of this world be proud?"
 </string>
           </argument>
         </arguments>

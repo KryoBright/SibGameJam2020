@@ -53,12 +53,16 @@
     <sprite>sprites\DKSword</sprite>
     <sprite>sprites\DKAttack</sprite>
     <sprite>sprites\SwitchSprite</sprite>
+    <sprite>sprites\spriteDanger</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Entity</object>
     <object>objects\UI</object>
@@ -112,6 +116,7 @@
     <object>objects\ShopShield</object>
     <object>objects\ShieldDK</object>
     <object>objects\BiigBullet</object>
+    <object>objects\objectBarrier</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMap</room>

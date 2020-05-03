@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>event_inherited()
 cost=75
+description="HealthUp! Gives you +50 BaseHP##'Keep yourself healthy!' - #states The Law"
 </string>
           </argument>
         </arguments>

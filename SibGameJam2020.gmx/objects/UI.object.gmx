@@ -8,6 +8,53 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>await=2
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (await&gt;0)
+    await--
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,13 +72,23 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-draw_healthbar(1370,170,1900,250,Player.health_c*100/Player.health_b,c_black,c_red,c_lime,0,true,true)
-draw_healthbar(1620,290,1900,360,Map.weapons[0].delay_c*100/Map.weapons[0].delay_b,c_black,c_orange,c_orange,0,true,true)
-draw_healthbar(1620,610,1900,680,Map.weapons[1].delay_c*100/Map.weapons[1].delay_b,c_black,c_orange,c_orange,0,true,true)
-draw_self()
-draw_text_transformed_colour(1380+120,900+20,string(Map.money)+" G",5,5,0,c_black,c_black,c_black,c_black,1)
-
+            <string>if (await&lt;=0)
+{
+    draw_healthbar(1370,170,1900,250,Player.health_c*100/Player.health_b,c_black,c_red,c_lime,0,true,true)
+    draw_healthbar(1620,290,1900,360,Map.weapons[0].delay_c*100/Map.weapons[0].delay_b,c_black,c_orange,c_orange,0,true,true)
+    draw_healthbar(1620,610,1900,680,Map.weapons[1].delay_c*100/Map.weapons[1].delay_b,c_black,c_orange,c_orange,0,true,true)
+    draw_self()
+    draw_text_transformed_colour(1380+120,900+20,string(Map.money)+" G",5,5,0,c_black,c_black,c_black,c_black,1)
+    draw_set_colour(c_white)
+    draw_set_font(font0)
+    if (Map.lastitem!=noone)
+    {
+        draw_text_transformed(60,897,Map.lastitem.description,0.8,0.8,0)
+        
+    }
+    draw_text_transformed(1634,387,Map.weapons[0].description,0.8,0.8,0)
+    draw_text_transformed(1644,707,Map.weapons[1].description,0.8,0.8,0)
+}
 </string>
           </argument>
         </arguments>
