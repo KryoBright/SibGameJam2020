@@ -376,6 +376,7 @@
     <instance objName="objectBarrier" x="608" y="-128" name="inst_C8A35A87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objectBarrier" x="608" y="-96" name="inst_219DF6E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objectBarrier" x="608" y="-64" name="inst_CAA4E2B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ButtonRestart" x="1536" y="832" name="inst_832C0BCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
